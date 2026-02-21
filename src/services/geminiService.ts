@@ -61,5 +61,13 @@ export async function getMedicationDetails(drugName: string): Promise<Medication
     },
   });
 
-  return JSON.parse(response.text || "{}");
+  let jsonStr = response.text || "{}";
+  // Strip markdown code blocks if present
+  if (jsonStr.includes("```json")) {
+    jsonStr = jsonStr.split("```json")[1].split("```")[0];
+  } else if (jsonStr.includes("```")) {
+    jsonStr = jsonStr.split("```")[1].split("```")[0];
+  }
+  
+  return JSON.parse(jsonStr.trim());
 }
