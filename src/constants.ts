@@ -59,6 +59,7 @@ export const WEEKS: Week[] = [
       { name: "Piridostigmina" },
       { name: "Fisostigmina" },
       { name: "Donepezil" },
+      { name: "Neostigmina" },
       { name: "Rivastigmina" }
     ]
   },
@@ -77,6 +78,7 @@ export const WEEKS: Week[] = [
       { name: "Clidinio" },
       { name: "Glicopirrolato" },
       { name: "Umeclidino" },
+      { name: "Ipatropio" },
       { name: "Tiotropio" }
     ]
   },

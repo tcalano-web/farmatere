@@ -170,11 +170,10 @@ export default function App() {
               >
                 <div className="mb-12">
                   <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 tracking-tight">
-                    Bienvenido al <span className="text-indigo-600">Vademécum Digital</span>
+                    Bienvenidos a mi <span className="text-indigo-600">vademécum</span>
                   </h2>
                   <p className="text-lg text-slate-600 leading-relaxed max-w-2xl">
-                    Tu guía interactiva de farmacología organizada por semanas de estudio. 
-                    Explora mecanismos de acción, dosis, indicaciones y más.
+                    Aquí encontrarás información de todos los fármacos organizado por semanas.
                   </p>
                 </div>
 
